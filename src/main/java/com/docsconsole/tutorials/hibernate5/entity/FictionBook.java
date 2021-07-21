@@ -5,10 +5,10 @@ import javax.persistence.*;
 
 @Entity
 @Table(name="fiction_book3")
-@AttributeOverrides({
+/*@AttributeOverrides({
         @AttributeOverride(name="BOOK_ID", column=@Column(name="BOOK_ID")),
         @AttributeOverride(name="BOOK_NAME", column=@Column(name="BOOK_NAME"))
-})
+})*/
 public class FictionBook extends Book{
     @Column(name = "BOOK_PRICE")
     private Double bookPrice;
